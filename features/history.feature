@@ -15,6 +15,7 @@ Feature: History screen shows recently used conversions
     And I select "History"
     Then I see "Volume" on History page
 
+  @flaky
   Scenario: history can be cleared
     Given I land on home screen
     And I press on menu icon

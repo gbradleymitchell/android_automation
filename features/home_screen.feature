@@ -28,6 +28,7 @@ Feature: Home screen default behaviors
     |2      |60.96   |
     |9      |274.32  |
 
+  @flaky
   Scenario: User is able to add current conversion to Favorites list
     Then I press on Add to Favorites icon
     And I press on menu icon
