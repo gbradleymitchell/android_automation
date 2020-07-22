@@ -1,7 +1,7 @@
 default: -v
 home: -t @home_screen
 all: --format html --out report.html
-ci: --format junit --out results.xml -t ~@flaky
+ci: --format junit --out results.xml -t not @flaky
 flaky: -t @flaky  --format html --out report.html
 foo: -t @foo
 mint: -t @mint
