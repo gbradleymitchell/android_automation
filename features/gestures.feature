@@ -7,6 +7,7 @@ Feature: Gestures are able to be used
     And I swipe from right to left
     And I see "Length" as a current unit converter
 
+  @flaky
   Scenario: User able to swipe to open Right side calculator
     Given I land on home screen
     When I swipe from right to left
