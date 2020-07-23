@@ -6,6 +6,7 @@ Feature: History screen shows recently used conversions
     And I select "History"
     Then I see message no history right now
 
+  @flaky
   Scenario: After using a conversion it shows in history
     Given I land on home screen
     And I press on menu icon
